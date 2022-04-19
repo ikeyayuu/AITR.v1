@@ -1,0 +1,197 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.1rem;
+    background-color: #0387a0;
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin-top: 30px;
+    color: #79b8bc;
+}
+
+p {
+    margin: 20px;
+    color: #7e8b8b;
+}
+
+.logo {
+    width: 200px;
+}
+
+.loginbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1000px;
+    height: 600px;
+    padding: 50px 30px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #eafeff;
+    text-align: center;
+}
+
+.btnStaff {
+    position: absolute;
+    margin: 50px;
+    right: 0;
+    bottom: 0;
+}
+
+.btnStart {
+    margin: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eafeff;
+}
+
+.title {
+    margin-right: 5rem;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    font-size: 3rem;
+}
+
+input[type=button], #MainContent_ButtonNext, #MainContent_ButtonRegister, #MainContent_button_next {
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    border-radius: 6px;
+    background-color: #79b8bc;
+    color: #fff;
+    font-size: 1.1rem;
+    margin-inline: 1rem;
+}
+
+    input[type=button]:hover {
+        background-color: #a5d3d6;
+    }
+
+    #MainContent_ButtonNext:hover {
+        background-color: #a5d3d6;
+    }
+
+    #MainContent_button_next:hover {
+        background-color: #a5d3d6;
+    }
+
+.introduction {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    min-width: 150px;
+    max-width: 650px;
+    font-size: 1.1rem;
+}
+
+.anonymous__title {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.anonymous__radio {
+    margin-bottom: 1rem;
+}
+
+.radio {
+    padding: 10px;
+}
+
+#MainContent_Email__validator {
+    color: red;
+}
+
+.register__respondent__area {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: min(90%, 450px); 
+}
+
+.register__respondent__line {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+}
+
+.field_title {
+    margin-right: 2rem;
+}
+
+.field {
+    width: 165px;
+}
+
+.register__buttons {
+    margin-top: 3rem;
+}
+
+.page__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #79b8bc;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .options > table > tbody > tr {
+        margin-inline: 2rem;
+    }
+
+.question__title {
+    font-size: 2rem;
+}
+
+.question__description {
+    font-size: 1.3rem;
+    color: #7e8b8b;
+}
+
+.question__option {
+    font-size: 1rem;
+    opacity: 0.7;
+    margin-bottom: 1rem;
+}
+
+.survey__buttons__area {
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.options > table > tbody {
+    display: flex;
+}
